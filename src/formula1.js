@@ -23,17 +23,21 @@ const DRIVERS_DATABASE_2023 = [
 
 function getF1DriverCar(driverName){
     return getDriverByName(driverName)?.CAR;
+
 }
 
 function getF1DriverNationality(driverName){
     return getDriverByName(driverName)?.NATIONALITY;
+
 }
 
 function getDriverByName(driverName){
     return DRIVERS_DATABASE_2023.find(driver => driver.DRIVER == driverName);
+
 }
 
 module.exports = {
     getF1DriverCar,
     getF1DriverNationality
+    
 };
