@@ -34,7 +34,7 @@ function getDriverByName(driverName){
 }
 
 function getTeamDrivers(teamName){
-    return RIVERS_DATABASE_2023.filter(driver => driver.CAR == teamName);
+    return DRIVERS_DATABASE_2023.filter(driver => driver.CAR == teamName);
 }
 
 module.exports = {

@@ -7,3 +7,7 @@ test("Max Verstappen car's should be RED BULL RACING HONDA RBPT", () => {
 test("Yuki Tsunoda nationality should be JPN", () => {
     expect(formula1.getF1DriverNationality('Yuki Tsunoda')).toBe('JPN');
 });
+
+test("RED BULL RACING HONDA RBPT contains two drivers", () => {
+    expect(formula1.getTeamDrivers('RED BULL RACING HONDA RBPT').length).toBe(2);
+});
