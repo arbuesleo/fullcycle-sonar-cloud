@@ -9,5 +9,5 @@ test("Yuki Tsunoda nationality should be JPN", () => {
 });
 
 test("Yuki Tsunoda car's should be ", () => {
-    expect(formula1.getF1DriverNationality('Yuki Tsunoda')).toBe('ALPHATAURI HONDA RBPT');
+    expect(formula1.getF1DriverCar('Yuki Tsunoda')).toBe('ALPHATAURI HONDA RBPT');
 });
