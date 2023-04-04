@@ -29,6 +29,10 @@ function getF1DriverNationality(driverName){
     return getDriverByName(driverName)?.NATIONALITY;
 }
 
+function getTeamDrivers(teamName){
+    return RIVERS_DATABASE_2023.filter(driver => driver.CAR == teamName);
+}
+
 function getDriverByName(driverName){
     return DRIVERS_DATABASE_2023.find(driver => driver.DRIVER == driverName);
 }
