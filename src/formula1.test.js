@@ -7,3 +7,7 @@ test("Max Verstappen car's should be RED BULL RACING HONDA RBPT", () => {
 test("Yuki Tsunoda nationality should be JPN", () => {
     expect(formula1.getF1DriverNationality('Yuki Tsunoda')).toBe('JPN');
 });
+
+test("Yuki Tsunoda car's should be ", () => {
+    expect(formula1.getF1DriverNationality('Yuki Tsunoda')).toBe('ALPHATAURI HONDA RBPT');
+});
