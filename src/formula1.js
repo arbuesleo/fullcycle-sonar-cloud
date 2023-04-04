@@ -33,7 +33,12 @@ function getDriverByName(driverName){
     return DRIVERS_DATABASE_2023.find(driver => driver.DRIVER == driverName);
 }
 
+function getTeamDrivers(teamName){
+    return RIVERS_DATABASE_2023.filter(driver => driver.CAR == teamName);
+}
+
 module.exports = {
     getF1DriverCar,
-    getF1DriverNationality
+    getF1DriverNationality,
+    getTeamDrivers
 };
