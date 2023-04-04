@@ -21,11 +21,11 @@ const DRIVERS_DATABASE_2023 = [
     {DRIVER: 'Nyck De Vries', NATIONALITY: 'NED', CAR: 'ALPHATAURI HONDA RBPT'},
 ];
 
-function getF1DriverCar(driverName){
+function getDriverCar(driverName){
     return getDriverByName(driverName)?.CAR;
 }
 
-function getF1DriverNationality(driverName){
+function getDriverNationality(driverName){
     return getDriverByName(driverName)?.NATIONALITY;
 }
 
@@ -34,6 +34,6 @@ function getDriverByName(driverName){
 }
 
 module.exports = {
-    getF1DriverCar,
-    getF1DriverNationality
+    getDriverCar,
+    getDriverNationality
 };
