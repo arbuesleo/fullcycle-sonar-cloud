@@ -1,0 +1,18 @@
+{
+  "name": "fullcycle-sonar-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/formula1.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
